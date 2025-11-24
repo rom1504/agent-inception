@@ -1,0 +1,31 @@
+name: Node.js Test
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Run tests
+      run: node test.js
+      env:
+        # We need a dummy key if the server crashes without one, 
+        # but usually dotenv just loads undefined or empty string if file missing.
+        # Our server.js initializes genAI immediately, so it might need a value.
+        GEMINI_API_KEY: "dummy_key_for_ci_test"
