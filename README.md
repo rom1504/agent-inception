@@ -63,6 +63,10 @@ It was built entirely using **Amp**, showcasing how an AI coding assistant can r
     *   *"Find the file named 'server.js' and tell me what other files are in that directory."* (Uses Sequential Search + List tools)
     *   *"Why is the sky blue?"* (Demonstrates pure reasoning)
 
+## Blog Post
+
+For a deep dive into how this project was built and the concepts behind it, check out the [detailed blog post](blogpost.md).
+
 ## Testing
 
 Run the automated test suite to verify the server and frontend:
