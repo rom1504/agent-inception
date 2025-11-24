@@ -1,6 +1,6 @@
 # Agent Inception: Building an Agentic Harness for Gemini 3 with Amp
 
-*By [Your Name/Amp]*
+*By Romain Beaumont and Amp and Gemini 3 on 24/11/2025*
 
 In this post, we explore how we utilized **Amp**, a sophisticated AI coding agent, to build a complete agentic chatbot harness for Google's latest **Gemini 3** models in record time.
 
