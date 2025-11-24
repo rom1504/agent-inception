@@ -1,12 +1,14 @@
-# Building an Agentic Harness for Gemini 3 with Amp
+# Agent Inception: Building an Agentic Harness for Gemini 3 with Amp
 
 *By [Your Name/Amp]*
 
 In this post, we explore how we utilized **Amp**, a sophisticated AI coding agent, to build a complete agentic chatbot harness for Google's latest **Gemini 3** models in record time.
 
-The goal was not just to build a chat interface, but to create a **harness**—a flexible environment where the AI is not just a text generator, but an agent capable of thinking, planning, and acting on the world (or at least, the file system).
+We call this project **"Agent Inception"** because it represents a recursive leap in AI development: using an AI agent to construct the environment for another AI agent.
 
-## The "Harness" Concept
+The goal was not just to build a chat interface, but to create a **meta-harness**—a flexible environment where the AI is not just a text generator, but an agent capable of thinking, planning, and acting on the world (or at least, the file system).
+
+## The "Meta-Harness" Concept
 
 When working with frontier models like Gemini 3 Pro, simply hitting an API endpoint isn't enough. To unlock their true potential, we needed a system that supports:
 
@@ -53,6 +55,8 @@ Building this required stitching together several components:
 *   **Vanilla JS Frontend**: A lightweight, dependency-free UI that renders the complex stream of thoughts, tool inputs/outputs, and chat messages.
 
 Amp was able to scaffold the project, implement the complex streaming logic, debug API errors (like the tricky 503 retry logic and history synchronization issues), and refine the UI styles iteratively.
+
+This collaboration demonstrates the power of **meta-agentic development**: Amp (the builder agent) understanding and implementing the requirements for Gemini (the user agent), effectively bootstrapping a more advanced intelligence system.
 
 ## Conclusion
 

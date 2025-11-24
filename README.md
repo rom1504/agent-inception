@@ -1,6 +1,8 @@
-# Gemini Agentic Chatbot Demo
+# Agent Inception: A Gemini Agentic Chatbot Harness
 
 A powerful, full-stack chatbot harness built to demonstrate the capabilities of **Google Gemini 3** and **Gemini 2.5 Flash** using the **Amp** AI coding agent.
+
+This project is a "meta-harness"—an agentic tool built *by* an agent, *for* an agent.
 
 ![Chatbot Screenshot](chat_screenshot.png)
 
@@ -8,7 +10,7 @@ A powerful, full-stack chatbot harness built to demonstrate the capabilities of 
 
 This project is a web-based agentic harness that connects to the Google Gemini API. It provides a rich user interface for interacting with Gemini models, specifically highlighting their **reasoning capabilities ("Thinking Process")** and **tool usage**.
 
-It was built entirely using **Amp**, showcasing how an AI coding assistant can rapidly generate complex, full-stack applications with advanced AI integration.
+It was built entirely using **Amp**, showcasing how an AI coding assistant can rapidly generate complex, full-stack applications with advanced AI integration. This recursive nature—using an AI agent to build the environment for another AI agent—is the core concept behind "Agent Inception."
 
 ## Key Features
 
